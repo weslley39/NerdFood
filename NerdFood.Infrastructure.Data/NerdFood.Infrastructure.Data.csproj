@@ -63,7 +63,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Config\ClienteConfiguration.cs" />
     <Compile Include="Config\ContextManager.cs" />
+    <Compile Include="Config\EmpresaConfiguration.cs" />
     <Compile Include="Config\UnitOfWork.cs" />
     <Compile Include="DbContexts\NerdFoodContext.cs" />
     <Compile Include="DbContexts\IdentityContext.cs" />

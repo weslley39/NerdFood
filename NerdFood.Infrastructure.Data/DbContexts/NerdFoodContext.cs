@@ -10,6 +10,7 @@ using System.Configuration;
 using NerdFood.Domain.Entities;
 using NerdFood.Infra.Data.Interfaces;
 using System.Data.Entity.ModelConfiguration.Conventions;
+ using NerdFood.Infrastructure.Data.Config;
 
 namespace NerdFood.Infra.Data.DbContexts
 {
@@ -29,6 +30,22 @@ namespace NerdFood.Infra.Data.DbContexts
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+            modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
+            modelBuilder.Conventions.Remove<ManyToManyCascadeDeleteConvention>();
+
+            modelBuilder.Properties()
+                .Where(x => x.Name == x.ReflectedType.Name + "Id")
+                .Configure(x => x.IsKey());
+
+            modelBuilder.Properties<string>()
+                .Configure(x => x.HasColumnType("varchar"));
+
+            modelBuilder.Properties<string>()
+                .Configure(x => x.HasMaxLength(100));
+
+            modelBuilder.Configurations.Add(new ClienteConfiguration());
+            modelBuilder.Configurations.Add(new EmpresaConfiguration());
+
             base.OnModelCreating(modelBuilder);
         }
 
