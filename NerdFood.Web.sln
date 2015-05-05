@@ -1,0 +1,107 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{6CF55B4D-3C72-41AE-85ED-54BFBE5C3467}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{B17E40E5-9337-4855-AF17-1AE09C91D0F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{7098D40D-02EE-4C6C-B773-6E9F04B71003}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{2BD24B37-523C-406D-9177-7AE889007EA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{FF2FFCD3-E990-46BE-9E96-213A177EF3B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerdFood.Application", "NerdFood.Application\NerdFood.Application.csproj", "{CF273E10-D020-49ED-9745-B495F5246996}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerdFood.Domain", "NerdFood.Domain\NerdFood.Domain.csproj", "{9575FBA8-F63E-4E0A-8D6D-46A9819B75D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{1142F0C5-60F0-416B-B03F-0F164A01285E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{D9FE6FA5-CA7D-4126-86DD-B7AD03804B51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerdFood.Infrastructure.Data", "NerdFood.Infrastructure.Data\NerdFood.Infrastructure.Data.csproj", "{CD063BBF-ED2A-40FD-AEF6-B124CBE298F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2.1 - IoC", "4.2.1 - IoC", "{FE1F96EC-89FE-439E-A848-64D7F213354F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2.2 - Identity", "4.2.2 - Identity", "{BBC01D5E-6BDD-412D-82BB-0BCC6438806E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2.3 - Filters", "4.2.3 - Filters", "{5F24742F-089D-4AA1-B8A1-DF67810A5F01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerdFood.Infrastructure.CrossCutting.Identity", "NerdFood.Infrastructure.CrossCutting.Identity\NerdFood.Infrastructure.CrossCutting.Identity.csproj", "{2CAC3723-C151-4AFF-83B7-39289D2C1AEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerdFood.Infrastructure.CrossCutting.Filters", "NerdFood.Infrastructure.CrossCutting.Filters\NerdFood.Infrastructure.CrossCutting.Filters.csproj", "{D6135E2C-533D-4119-A501-2DC6F2EEEB8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerdFood.Web", "NerdFood\NerdFood.Web.csproj", "{D15AFC76-A7AD-4661-9B91-A415564DBC4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerdFood.Infrastructure.CrossCutting.IoC", "NerdFood.Infrastructure.CrossCutting.IoC\NerdFood.Infrastructure.CrossCutting.IoC.csproj", "{144CCADC-B120-47BF-89CF-4EBB2405A651}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{03DC4BEA-3AF2-4A7F-8BAE-2AE557CAC699}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerdFood.Services.WebAPI", "NerdFood.Services.WebAPI\NerdFood.Services.WebAPI.csproj", "{C4B7FBEA-31F1-45E5-B583-A53776762D30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF273E10-D020-49ED-9745-B495F5246996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF273E10-D020-49ED-9745-B495F5246996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF273E10-D020-49ED-9745-B495F5246996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF273E10-D020-49ED-9745-B495F5246996}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9575FBA8-F63E-4E0A-8D6D-46A9819B75D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9575FBA8-F63E-4E0A-8D6D-46A9819B75D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9575FBA8-F63E-4E0A-8D6D-46A9819B75D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9575FBA8-F63E-4E0A-8D6D-46A9819B75D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD063BBF-ED2A-40FD-AEF6-B124CBE298F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD063BBF-ED2A-40FD-AEF6-B124CBE298F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD063BBF-ED2A-40FD-AEF6-B124CBE298F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD063BBF-ED2A-40FD-AEF6-B124CBE298F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CAC3723-C151-4AFF-83B7-39289D2C1AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CAC3723-C151-4AFF-83B7-39289D2C1AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CAC3723-C151-4AFF-83B7-39289D2C1AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CAC3723-C151-4AFF-83B7-39289D2C1AEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6135E2C-533D-4119-A501-2DC6F2EEEB8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6135E2C-533D-4119-A501-2DC6F2EEEB8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6135E2C-533D-4119-A501-2DC6F2EEEB8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6135E2C-533D-4119-A501-2DC6F2EEEB8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D15AFC76-A7AD-4661-9B91-A415564DBC4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D15AFC76-A7AD-4661-9B91-A415564DBC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D15AFC76-A7AD-4661-9B91-A415564DBC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D15AFC76-A7AD-4661-9B91-A415564DBC4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{144CCADC-B120-47BF-89CF-4EBB2405A651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{144CCADC-B120-47BF-89CF-4EBB2405A651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{144CCADC-B120-47BF-89CF-4EBB2405A651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{144CCADC-B120-47BF-89CF-4EBB2405A651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B7FBEA-31F1-45E5-B583-A53776762D30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B7FBEA-31F1-45E5-B583-A53776762D30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B7FBEA-31F1-45E5-B583-A53776762D30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B7FBEA-31F1-45E5-B583-A53776762D30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D15AFC76-A7AD-4661-9B91-A415564DBC4F} = {6CF55B4D-3C72-41AE-85ED-54BFBE5C3467}
+		{CF273E10-D020-49ED-9745-B495F5246996} = {B17E40E5-9337-4855-AF17-1AE09C91D0F4}
+		{C4B7FBEA-31F1-45E5-B583-A53776762D30} = {7098D40D-02EE-4C6C-B773-6E9F04B71003}
+		{9575FBA8-F63E-4E0A-8D6D-46A9819B75D4} = {2BD24B37-523C-406D-9177-7AE889007EA5}
+		{1142F0C5-60F0-416B-B03F-0F164A01285E} = {FF2FFCD3-E990-46BE-9E96-213A177EF3B1}
+		{D9FE6FA5-CA7D-4126-86DD-B7AD03804B51} = {FF2FFCD3-E990-46BE-9E96-213A177EF3B1}
+		{CD063BBF-ED2A-40FD-AEF6-B124CBE298F3} = {1142F0C5-60F0-416B-B03F-0F164A01285E}
+		{FE1F96EC-89FE-439E-A848-64D7F213354F} = {D9FE6FA5-CA7D-4126-86DD-B7AD03804B51}
+		{BBC01D5E-6BDD-412D-82BB-0BCC6438806E} = {D9FE6FA5-CA7D-4126-86DD-B7AD03804B51}
+		{5F24742F-089D-4AA1-B8A1-DF67810A5F01} = {D9FE6FA5-CA7D-4126-86DD-B7AD03804B51}
+		{144CCADC-B120-47BF-89CF-4EBB2405A651} = {FE1F96EC-89FE-439E-A848-64D7F213354F}
+		{2CAC3723-C151-4AFF-83B7-39289D2C1AEA} = {BBC01D5E-6BDD-412D-82BB-0BCC6438806E}
+		{D6135E2C-533D-4119-A501-2DC6F2EEEB8B} = {5F24742F-089D-4AA1-B8A1-DF67810A5F01}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Data.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
